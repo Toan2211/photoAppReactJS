@@ -1,0 +1,17 @@
+.banner{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    height: 18rem;
+
+    background-image: url(../../assets/images/tallgrass-prairie-sean-ramsey.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    &__title{
+        color: white;
+        font-weight: bold;
+    }
+}
